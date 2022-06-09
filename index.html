@@ -11,16 +11,16 @@
     <title>CV</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
+    <div class="container">
+        <header class="header">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-links" href="">About</a></li>
-                    <li class="nav-item"><a class="nav-links" href="">Contacts</a></li>
-                    <li class="nav-item"><a class="nav-links" href="">Skills</a></li>
-                    <li class="nav-item"><a class="nav-links" href="">Code</a></li>
-                    <li class="nav-item"><a class="nav-links" href="">Projects</a></li>
-                    <li class="nav-item"><a class="nav-links" href="">English</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#english">English</a></li>
                 </ul>
             </nav>
             <div class="inner">
@@ -29,13 +29,56 @@
                     <div class="inner-title">
                         <h1>Shlimmer Artur</h1>
                         <span>Future Front-End Developer</span>
+                        <section id="contacts">
+                            <ul class="contacts-list">
+                                <li class="contacts-item"><a href="https://github.com/ShlimmerA"><img class="icon" src="asset/img/icon_git.svg" alt="git"></a></li>
+                                <li class="contacts-item"><a href="shlimmerA#3452"><img class="icon" src="asset/img/icon_discord.svg" alt="discord"></a></li>
+                                <li class="contacts-item"><a href="https://t.me/Art_Indigo"><img class="icon" src="asset/img/icon_telegram.svg" alt="telegram"></a></li>
+                            </ul>
+                        </section>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main class="main">
-
-    </main>
+        </header>
+        <main class="main">
+            <section class="section" id="about">
+                <h2>About</h2>
+                <p></p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>js</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <div class="hjls">
+                    <pre>
+                        <code class="hjls">
+    function billboard(name, price = 30){
+        let sum = 0;
+    
+        for(let i = 0; i < name.length; i++){
+        sum += price;
+    }
+    return sum;
+    } 
+                        </code> 
+                    </pre>
+            </div>
+            </section>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <p>This cv</p>
+            </section>
+            <section class="section" id="english">
+                <h2>English</h2>
+                <p>English: b1</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
