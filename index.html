@@ -1,1 +1,90 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-links" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-links" href="#english">English</a></li>
+                </ul>
+            </nav>
+            <div class="inner">
+                <img src="asset/img/images.jpg" alt="avatar">
+                <div class="inner-block">
+                    <div class="inner-title">
+                        <h1>Shlimmer Artur</h1>
+                        <span>Future Front-End Developer</span>
+                        <div id="contacts">
+                            <ul class="contacts-list">
+                                <li class="contacts-item"><a href="https://github.com/ShlimmerA"><img class="icon" src="asset/img/icon_git.svg" alt="git"></a></li>
+                                <li class="contacts-item"><a href="shlimmerA#3452"><img class="icon" src="asset/img/icon_discord.svg" alt="discord"></a></li>
+                                <li class="contacts-item"><a href="https://t.me/Art_Indigo"><img class="icon" src="asset/img/icon_telegram.svg" alt="telegram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="section" id="about">
+                <h2>About</h2>
+                <p>I have a knowledge about back-end, so now i want to learn some more web programming
+                    and become a Front-end Developer. The main goal is making a layouts. The next steps will be easier and more logical</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>html</li>
+                    <li>git</li>
+                    <li>php</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <div class="hjls">
+                    <pre>
+                        <code class="hjls">
+    function billboard(name, price = 30){
+        let sum = 0;
+    
+        for(let i = 0; i &lt; name.length; i++){
+        sum += price;
+        }
+        return sum;
+    } 
+                        </code> 
+                    </pre>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <p>This cv</p>
+            </section>
+            <section class="section" id="english">
+                <h2>English</h2>
+                <p>English: A2</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-git"><a href="https://github.com/ShlimmerA"><img class="footer-icon git-icon" src="asset/img/footer_git_icon.svg" alt="git-icon"></a></div>
+            <div class="footer-year">2022</div>
+            <div class="footer-rss"><a href="https://rs.school/js-stage0/"><img class="footer-icon" src="asset/img/rs.svg" alt="rss-icon"></a></div>
+        </footer>
+    </div>
+</body>
+</html>
